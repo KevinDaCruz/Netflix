@@ -4,8 +4,44 @@
 
 body {
   line-height: 1;
+  font-family: "Roboto", sans-serif;
+  background-color: black;
+  padding-left: 50px;
+}
+
+.logo {
+  height: 100px;
+}
+
+h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 div {
   border: black solid 2px;
+}
+
+.movies {
+  width: 220px;
+  height: 123.86px;
+}
+
+.caroussel {
+  display: flex;
+  overflow-x: scroll;
+  padding-bottom: 40px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.caroussel::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.caroussel {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
